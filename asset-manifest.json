@@ -1,16 +1,10 @@
 {
   "files": {
-    "main.css": "/Okey-Dokey/static/css/main.073c9b0a.css",
-    "main.js": "/Okey-Dokey/static/js/main.85f117ab.js",
-    "static/js/787.37ce2e2a.chunk.js": "/Okey-Dokey/static/js/787.37ce2e2a.chunk.js",
-    "static/media/logo.svg": "/Okey-Dokey/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.js": "/Okey-Dokey/static/js/main.457572ff.js",
     "index.html": "/Okey-Dokey/index.html",
-    "main.073c9b0a.css.map": "/Okey-Dokey/static/css/main.073c9b0a.css.map",
-    "main.85f117ab.js.map": "/Okey-Dokey/static/js/main.85f117ab.js.map",
-    "787.37ce2e2a.chunk.js.map": "/Okey-Dokey/static/js/787.37ce2e2a.chunk.js.map"
+    "main.457572ff.js.map": "/Okey-Dokey/static/js/main.457572ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.85f117ab.js"
+    "static/js/main.457572ff.js"
   ]
 }
