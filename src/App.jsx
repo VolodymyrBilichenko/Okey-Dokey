@@ -1,12 +1,13 @@
 import './App.styled';
-import { GlobalStyled } from './components/GlobalStyle/GlobalStyle.styled';
-import { Header } from './components/Header/Header';
+import {Header} from './components/Header/Header';
+import {Globalstyle} from "./components/GlobalStyle/GlobalStyle";
 
 export const App = () => {
 
-  return (
-    <GlobalStyled>
-      <Header/>
-    </GlobalStyled>
-  );
+    return (
+        <>
+            <Globalstyle/>
+            <Header/>
+        </>
+    );
 }
