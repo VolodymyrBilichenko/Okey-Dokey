@@ -1,9 +1,11 @@
 import './App.styled';
+import { GlobalStyled } from './components/GlobalStyle/GlobalStyle.styled';
 
 export const App = () => {
+  
   return (
-    <div>
-      <h1>Start</h1>
-    </div>
+    <GlobalStyled>
+
+    </GlobalStyled>
   );
 }
