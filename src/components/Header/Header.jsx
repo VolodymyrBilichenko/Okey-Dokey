@@ -56,7 +56,7 @@ export const Header = () => {
           <button className="header__lang--target" type="button">
             Рус
             <svg width="7" height="5" viewBox="0 0 7 5">
-              <use xlink:href="img/sprites.svg#drop-down-arrow"></use>
+              <use xlinkHref="img/sprites.svg#drop-down-arrow"></use>
             </svg>
           </button>
           <ul className="header__lang--list">
@@ -70,7 +70,7 @@ export const Header = () => {
         <div className="header__account visible-on-mob">
           <a href="#" className="header__account--btn" title="Аккаунт">
             <svg width="22" height="22" viewBox="0 0 22 22">
-              <use xlink:href="img/sprites.svg#avatar"></use>
+              <use xlinkHref="img/sprites.svg#avatar"></use>
             </svg>
           </a>
         </div>
@@ -78,10 +78,10 @@ export const Header = () => {
           <div className="header__tel">
             <button className="header__tel--target" type="button">
               <svg width="21" height="21" viewBox="0 0 13 13">
-                <use xlink:href="img/sprites.svg#tel"></use>
+                <use xlinkHref="img/sprites.svg#tel"></use>
               </svg>
               <svg width="7" height="5" viewBox="0 0 7 5">
-                <use xlink:href="img/sprites.svg#drop-down-arrow"></use>
+                <use xlinkHref="img/sprites.svg#drop-down-arrow"></use>
               </svg>
             </button>
             <div className="header__tel--block">
@@ -106,7 +106,7 @@ export const Header = () => {
             <button className="header__lang--target" type="button">
               Рус
               <svg width="7" height="5" viewBox="0 0 7 5">
-                <use xlink:href="img/sprites.svg#drop-down-arrow"></use>
+                <use xlinkHref="img/sprites.svg#drop-down-arrow"></use>
               </svg>
             </button>
             <ul class="header__lang--list">
@@ -120,7 +120,7 @@ export const Header = () => {
           <div class="header__account">
             <a href="#" class="header__account--btn" title="Аккаунт">
               <svg width="22" height="22" viewBox="0 0 22 22">
-                <use xlink:href="img/sprites.svg#avatar"></use>
+                <use xlinkHref="img/sprites.svg#avatar"></use>
               </svg>
             </a>
           </div>
