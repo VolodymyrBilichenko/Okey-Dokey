@@ -4,6 +4,7 @@ import {OurTeachersSliderItem} from "../OurTeachersSliderItem/OurTeachersSliderI
 
 export const OurTeachersSlider = () => {
     return (
+        <>
         <Splide
             className="our-teachers__slider splide"
             options={{
@@ -47,6 +48,7 @@ export const OurTeachersSlider = () => {
 
             <OurTeachersSliderItem/>
 
+        </Splide>
             <div className="our-teachers__nav splide__arrows">
                 <button className="our-teachers__arrow splide__arrow splide__arrow--prev arrow-btn" type="button">
                     <svg width="19" height="19" viewBox="0 0 19 19">
@@ -59,6 +61,6 @@ export const OurTeachersSlider = () => {
                     </svg>
                 </button>
             </div>
-        </Splide>
+    </>
     );
 }
