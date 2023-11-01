@@ -8,7 +8,7 @@ export const Header = () => {
       <div className="header__body">
         <div className="header__logo">
           <a href="index.html" className="header__logo--link">
-            <img src="img/logo.svg" alt="Logo" width="90" height="90" loading="lazy" className="header__logo--img">
+            <img src="img/logo.svg" alt="Logo" width="90" height="90" loading="lazy" className="header__logo--img"/>
           </a>
         </div>
         <nav className="header__nav">
