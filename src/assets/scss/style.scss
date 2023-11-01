@@ -1,0 +1,56 @@
+@import 'mixin';
+@import 'vars';
+@import 'libs';
+@import 'null';
+@import 'global';
+@import 'font';
+@import 'form';
+@import 'popup';
+
+@import 'components/header';
+@import 'components/breadcrumbs';
+@import 'components/pagination';
+@import 'components/change-avatar';
+@import 'components/aside-account';
+@import 'components/header-account';
+@import 'components/account';
+
+@import 'pages/index/hero';
+@import 'pages/index/tariffs';
+@import 'pages/index/our-teachers';
+@import 'pages/index/leave-application';
+@import 'pages/index/programs';
+@import 'pages/index/reviews';
+@import 'pages/index/faq';
+
+@import 'pages/blog/main';
+@import 'pages/blog/single';
+@import 'pages/blog/related-articles';
+
+@import 'pages/about-us/hero';
+@import 'pages/about-us/about-statistic';
+@import 'pages/about-us/content-section';
+
+@import 'pages/404/main';
+
+@import 'pages/login/login';
+@import 'pages/login/create-avatar';
+
+@import 'pages/student-profile/student-profile';
+@import 'pages/student-profile/change-student-avatar';
+@import 'pages/student-profile/student-awards';
+@import 'pages/student-profile/student-course-block';
+@import 'pages/student-profile/join-to-lesson';
+@import 'pages/student-profile/student-visits';
+@import 'pages/student-profile/student-audio-listening';
+
+@import 'pages/payment/main';
+
+@import 'pages/teacher-profile/main';
+@import 'pages/teacher-profile/lesson';
+@import 'pages/teacher-profile/table';
+@import 'pages/teacher-profile/rating';
+@import 'pages/teacher-profile/issuing-stickers';
+@import 'pages/teacher-profile/audiofiles';
+
+@import 'components/footer';
