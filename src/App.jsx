@@ -1,6 +1,7 @@
 import './App.styled';
+import {IconSprite} from "./components/Sprite/IconSprite";
 import {Header} from "./components/Header/Header";
-import {IconSprite} from "./components/IconSprite";
+import {Main} from "./pages/Main/Main";
 
 export const App = () => {
 
@@ -8,6 +9,7 @@ export const App = () => {
         <>
             <IconSprite/>
             <Header/>
+            <Main/>
         </>
     );
 }
