@@ -46,7 +46,7 @@ export const OurTeachersSlider = () => {
             <OurTeachersSliderItem/>
 
             <OurTeachersSliderItem/>
-            
+
             <div className="our-teachers__nav splide__arrows">
                 <button className="our-teachers__arrow splide__arrow splide__arrow--prev arrow-btn" type="button">
                     <svg width="19" height="19" viewBox="0 0 19 19">
