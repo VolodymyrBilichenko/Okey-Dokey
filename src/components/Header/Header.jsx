@@ -1,14 +1,16 @@
 import React from 'react'
 import { HeaderStyle } from './Header.styled'
 
+import Logo from '../../assets/img/logo.svg'
+
 export const Header = () => {
+
   return (
-    // container
-    <HeaderStyle>
+    <HeaderStyle className="header container">
       <div className="header__body">
         <div className="header__logo">
           <a href="index.html" className="header__logo--link">
-            <img src="img/logo.svg" alt="Logo" width="90" height="90" loading="lazy" className="header__logo--img"/>
+            <img src={Logo} alt="Logo" width="90" height="90" loading="lazy" className="header__logo--img"/>
           </a>
         </div>
         <nav className="header__nav">
@@ -56,7 +58,7 @@ export const Header = () => {
           <button className="header__lang--target" type="button">
             Рус
             <svg width="7" height="5" viewBox="0 0 7 5">
-              <use xlinkHref="img/sprites.svg#drop-down-arrow"></use>
+              <use xlinkHref="#drop-down-arrow"></use>
             </svg>
           </button>
           <ul className="header__lang--list">
@@ -70,7 +72,7 @@ export const Header = () => {
         <div className="header__account visible-on-mob">
           <a href="#" className="header__account--btn" title="Аккаунт">
             <svg width="22" height="22" viewBox="0 0 22 22">
-              <use xlinkHref="img/sprites.svg#avatar"></use>
+              <use xlinkHref="#avatar"></use>
             </svg>
           </a>
         </div>
@@ -78,10 +80,10 @@ export const Header = () => {
           <div className="header__tel">
             <button className="header__tel--target" type="button">
               <svg width="21" height="21" viewBox="0 0 13 13">
-                <use xlinkHref="img/sprites.svg#tel"></use>
+                <use xlinkHref="#tel"></use>
               </svg>
               <svg width="7" height="5" viewBox="0 0 7 5">
-                <use xlinkHref="img/sprites.svg#drop-down-arrow"></use>
+                <use xlinkHref="#drop-down-arrow"></use>
               </svg>
             </button>
             <div className="header__tel--block">
@@ -106,10 +108,10 @@ export const Header = () => {
             <button className="header__lang--target" type="button">
               Рус
               <svg width="7" height="5" viewBox="0 0 7 5">
-                <use xlinkHref="img/sprites.svg#drop-down-arrow"></use>
+                <use xlinkHref="#drop-down-arrow"></use>
               </svg>
             </button>
-            <ul class="header__lang--list">
+            <ul className="header__lang--list">
               <li>
                 <a href="#">
                   En
@@ -117,15 +119,15 @@ export const Header = () => {
               </li>
             </ul>
           </div>
-          <div class="header__account">
-            <a href="#" class="header__account--btn" title="Аккаунт">
+          <div className="header__account">
+            <a href="#" className="header__account--btn" title="Аккаунт">
               <svg width="22" height="22" viewBox="0 0 22 22">
-                <use xlinkHref="img/sprites.svg#avatar"></use>
+                <use xlinkHref="#avatar"></use>
               </svg>
             </a>
           </div>
         </div>
-        <button class="header__burger" type="button" aria-label="Menu">
+        <button className="header__burger" type="button" aria-label="Menu">
           <p>
             <span></span>
             <span></span>
