@@ -1,8 +1,9 @@
 import React from 'react';
 
+import {ReviewsSlideItem} from "./ReviewsSlideItem";
+
 import ReviewsViseo from '../../../../../../../assets/video/reviews-video.mp4'
 import ReviewsViseoPreview from '../../../../../../../assets/img/index/reviews/reviews-video-preview.jpg'
-import {ReviewsSlideItem} from "./ReviewsSlideItem";
 export const ReviewsSlide = () => {
     return (
         <li className="reviews__slide splide__slide">
