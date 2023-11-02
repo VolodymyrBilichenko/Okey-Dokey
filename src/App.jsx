@@ -2,6 +2,7 @@ import './App.styled';
 import {IconSprite} from "./components/Sprite/IconSprite";
 import {Header} from "./components/Header/Header";
 import {Main} from "./pages/Main/Main";
+import {Footer} from "./components/Footer/Footer";
 
 export const App = () => {
 
@@ -9,7 +10,10 @@ export const App = () => {
         <>
             <IconSprite/>
             <Header/>
+
             <Main/>
+
+            <Footer/>
         </>
     );
 }

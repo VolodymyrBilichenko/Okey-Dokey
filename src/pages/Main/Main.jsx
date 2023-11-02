@@ -11,7 +11,7 @@ import {MainFaq} from "./components/MainFaq/MainFaq";
 
 export const Main = () => {
     return (
-        <>
+        <div className="main" style={{overflow: "hidden"}}>
             <MainHero/>
 
             <MainTariffs/>
@@ -29,6 +29,6 @@ export const Main = () => {
             <MainReviews/>
 
             <MainFaq/>
-        </>
+        </div>
     );
 }
