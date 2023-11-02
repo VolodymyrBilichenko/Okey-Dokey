@@ -17330,3 +17330,15 @@ body {
         margin-top: 150px
     }
 }
+
+.our-teachers__slider{
+    position: relative;
+}
+
+.our-teachers__nav{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}

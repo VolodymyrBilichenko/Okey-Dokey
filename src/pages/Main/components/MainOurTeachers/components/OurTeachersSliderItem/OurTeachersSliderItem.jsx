@@ -2,10 +2,10 @@ import React from 'react';
 import { SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import OurTeacherAvatar from '../../../../../../assets/img/index/our-teachers/our-teachers-avatar-1.jpg'
-
+import { Swiper, SwiperSlide } from 'swiper/react';
 export const OurTeachersSliderItem = () => {
     return (
-        <SplideSlide className="our-teachers__card splide__slide">
+        <li className="our-teachers__card splide__slide">
             <div className="our-teachers__card--avatar">
                 <picture>
                     <img src={OurTeacherAvatar} alt="" width="277" height="277" loading="lazy"/>
@@ -46,6 +46,6 @@ export const OurTeachersSliderItem = () => {
                     </span>
                 </li>
             </ul>
-        </SplideSlide>
+        </li>
     );
 }
