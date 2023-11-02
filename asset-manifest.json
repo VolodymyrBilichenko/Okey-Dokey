@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Okey-Dokey/static/css/main.73eef907.css",
-    "main.js": "/Okey-Dokey/static/js/main.3346b158.js",
+    "main.js": "/Okey-Dokey/static/js/main.cc4b5bb2.js",
     "static/media/reviews-video.mp4": "/Okey-Dokey/static/media/reviews-video.bc910a3d06e7ca4e5e37.mp4",
     "static/media/reviews-video-preview.jpg": "/Okey-Dokey/static/media/reviews-video-preview.0507b10a287d20807361.jpg",
     "static/media/about-us-hero-image-1.jpg": "/Okey-Dokey/static/media/about-us-hero-image-1.7dc5d37d5c27ed9b6417.jpg",
@@ -42,10 +42,10 @@
     "static/media/reviews-card-decor.svg": "/Okey-Dokey/static/media/reviews-card-decor.31447bc113e0a2c4bcac87d4c1076f68.svg",
     "static/media/about-us-hero-decor.svg": "/Okey-Dokey/static/media/about-us-hero-decor.bc41b94c2529c42e2eda1b0cd0ee3837.svg",
     "main.73eef907.css.map": "/Okey-Dokey/static/css/main.73eef907.css.map",
-    "main.3346b158.js.map": "/Okey-Dokey/static/js/main.3346b158.js.map"
+    "main.cc4b5bb2.js.map": "/Okey-Dokey/static/js/main.cc4b5bb2.js.map"
   },
   "entrypoints": [
     "static/css/main.73eef907.css",
-    "static/js/main.3346b158.js"
+    "static/js/main.cc4b5bb2.js"
   ]
 }
