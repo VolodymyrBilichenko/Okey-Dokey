@@ -7,6 +7,7 @@ import {MainLeaveApplication} from "./components/MainLeaveApplication/MainLeaveA
 import {MainProgramms} from "./components/MainProgramms/MainProgramms";
 import {MainLevelEnglish} from "./components/MainLevelEnglish/MainLevelEnglish";
 import {MainReviews} from "./components/MainReviews/MainReviews";
+import {MainFaq} from "./components/MainFaq/MainFaq";
 
 export const Main = () => {
     return (
@@ -26,6 +27,8 @@ export const Main = () => {
             <MainLevelEnglish/>
 
             <MainReviews/>
+
+            <MainFaq/>
         </>
     );
 }
