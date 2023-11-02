@@ -11,7 +11,7 @@ import {MainFaq} from "./components/MainFaq/MainFaq";
 
 export const Main = () => {
     return (
-        <div className="main" style={{overflow: "hidden"}}>
+        <div className="main" >
             <MainHero/>
 
             <MainTariffs/>
