@@ -17331,6 +17331,11 @@ body {
     }
 }
 
+
+
+
+
+
 .our-teachers__slider{
     position: relative;
 }
@@ -17341,4 +17346,18 @@ body {
     top: 50%;
     transform: translateY(-50%);
     width: 100%;
+}
+
+.reviews__slider{
+    position: relative;
+}
+
+.reviews__arrows{
+    position: absolute;
+    transform: translateY(-50%);
+    display: flex;
+    top: 50%;
+    width: 100%;
+    justify-content: space-between;
+    margin-left: -100px;
 }

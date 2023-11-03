@@ -30,13 +30,13 @@ export const MainReviewsSlider = () => {
                     </SwiperSlide>
                 </Swiper>
             </div>
-            <div className="reviews__arrows splide__arrows">
-                <button className="reviews__arrow splide__arrow splide__arrow--prev arrow-btn swiper-prev" type="button">
+            <div className="reviews__arrows">
+                <button className="reviews__arrow arrow-btn swiper-prev" type="button">
                     <svg width="19" height="19" viewBox="0 0 19 19">
                         <use xlinkHref="#arrow-prev"></use>
                     </svg>
                 </button>
-                <button className="reviews__arrow splide__arrow splide__arrow--next arrow-btn swiper-next" type="button">
+                <button className="reviews__arrow arrow-btn swiper-next" type="button">
                     <svg width="19" height="19" viewBox="0 0 19 19">
                         <use xlinkHref="#arrow-next"></use>
                     </svg>

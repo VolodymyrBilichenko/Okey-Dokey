@@ -1,7 +1,5 @@
 import React from 'react';
 
-import tariffsCardPattern from '../../../../assets/img/index/tariffs/tariffs-card-pattern.svg'
-import cardDecorImage from '../../../../assets/img/index/tariffs/tariffs-card-image.svg'
 import {TarrifCard} from "./components/TarrifCard/TarrifCard";
 export const MainTariffs = () => {
   return (
