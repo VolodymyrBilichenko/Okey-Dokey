@@ -1,7 +1,7 @@
 import React from 'react';
 
-import CardDecor from '../../../../../../assets/img/card-decor-image.svg'
-import ProgramsCardDecor from '../../../../../../assets/img/index/programs/programs-card-decor.svg'
+import CardDecor from '../../../../assets/img/card-decor-image.svg'
+import ProgramsCardDecor from '../../../../assets/img/index/programs/programs-card-decor.svg'
 import {MainProgrammsVideoItem} from "../MainProgrammsVideoItem/MainProgrammsVideoItem";
 export const MainProgrammsListItem = () => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 
-import ReviewsCardDecor from '../../../../../../../assets/img/index/reviews/reviews-card-decor.svg'
-import ReviewsAvatar from '../../../../../../../assets/img/index/reviews/reviews-avatar.jpg'
+import ReviewsCardDecor from '../../../../../assets/img/index/reviews/reviews-card-decor.svg'
+import ReviewsAvatar from '../../../../../assets/img/index/reviews/reviews-avatar.jpg'
 export const ReviewsSlideItem = () => {
   return (
       <li className="reviews__slide--item reviews__item">

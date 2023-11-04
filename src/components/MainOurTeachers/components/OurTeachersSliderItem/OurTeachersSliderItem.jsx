@@ -1,7 +1,7 @@
 import React from 'react';
 import { SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
-import OurTeacherAvatar from '../../../../../../assets/img/index/our-teachers/our-teachers-avatar-1.jpg'
+import OurTeacherAvatar from '../../../../assets/img/index/our-teachers/our-teachers-avatar-1.jpg'
 import { Swiper, SwiperSlide } from 'swiper/react';
 export const OurTeachersSliderItem = () => {
     return (

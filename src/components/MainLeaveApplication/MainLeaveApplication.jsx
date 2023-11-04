@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ApplicetionPattern from '../../../../assets/img/index/application/application-pattern.svg'
+import ApplicetionPattern from '../../assets/img/index/application/application-pattern.svg'
 
 export const MainLeaveApplication = () => {
     return (

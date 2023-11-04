@@ -1,5 +1,5 @@
 import React from 'react';
-import ProgramsVideoPreview from "../../../../../../assets/img/index/programs/programs-video-preview-1.jpg";
+import ProgramsVideoPreview from "../../../../assets/img/index/programs/programs-video-preview-1.jpg";
 
 export const MainProgrammsVideoItem = () => {
     return (

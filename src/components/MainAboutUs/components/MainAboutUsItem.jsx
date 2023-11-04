@@ -1,6 +1,6 @@
 import React from 'react';
 
-import AboutUsHeroimg from '../../../../../assets/img/index/about-us/about-us-hero-image-1.jpg'
+import AboutUsHeroimg from '../../../assets/img/index/about-us/about-us-hero-image-1.jpg'
 
 export const MainAboutUsItem = () => {
   return (

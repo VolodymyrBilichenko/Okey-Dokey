@@ -1,7 +1,7 @@
 import React from 'react';
 import {MainAboutUsItem} from "./components/MainAboutUsItem";
 
-import AboutUsHeroDecor from '../../../../assets/img/index/about-us/about-us-hero-decor.svg'
+import AboutUsHeroDecor from '../../assets/img/index/about-us/about-us-hero-decor.svg'
 
 export const MainAboutUs = () => {
   return (
