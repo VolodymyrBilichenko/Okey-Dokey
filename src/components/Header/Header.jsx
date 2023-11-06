@@ -2,6 +2,7 @@ import React from 'react'
 import { HeaderStyle } from './Header.styled'
 
 import Logo from '../../assets/img/logo.svg'
+import {NavLink} from "react-router-dom";
 
 export const Header = () => {
 
@@ -9,9 +10,9 @@ export const Header = () => {
     <HeaderStyle className="header container">
       <div className="header__body">
         <div className="header__logo">
-          <a href="index.html" className="header__logo--link">
+          <NavLink to={"/"} className="header__logo--link">
             <img src={Logo} alt="Logo" width="90" height="90" loading="lazy" className="header__logo--img"/>
-          </a>
+          </NavLink>
         </div>
         <nav className="header__nav">
           <div className="header__nav--body">
@@ -42,9 +43,9 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="blog.html">
+                <NavLink to={"/Blog"}>
                   Блог
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a href="./#faq">
