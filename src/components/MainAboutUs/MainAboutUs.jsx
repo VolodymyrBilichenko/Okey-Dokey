@@ -1,5 +1,5 @@
 import React from 'react';
-import {MainAboutUsItem} from "./components/MainAboutUsItem";
+import {MainAboutUsList} from "./components/MainAboutUsList";
 
 import AboutUsHeroDecor from '../../assets/img/index/about-us/about-us-hero-decor.svg'
 
@@ -34,15 +34,9 @@ export const MainAboutUs = () => {
                   </p>
               </div>
           </div>
-          <ul className="about-us-hero__grid">
-              <MainAboutUsItem/>
 
-              <MainAboutUsItem/>
+          <MainAboutUsList/>
 
-              <MainAboutUsItem/>
-
-              <MainAboutUsItem/>
-          </ul>
       </section>
   );
 }

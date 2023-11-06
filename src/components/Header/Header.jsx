@@ -23,9 +23,9 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="about-us.html">
+                <NavLink to={'/about-us'}>
                   О нас
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a href="./#our-teachers">

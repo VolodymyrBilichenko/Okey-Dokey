@@ -2,6 +2,7 @@ import React from 'react';
 import {Main} from "../pages/Main/Main";
 import {Blog} from "../pages/Blog/Blog";
 import {BlogCard} from "../pages/BlogCard/BlogCard";
+import {AboutUs} from "../pages/AboutUs/AboutUs";
 
 export const routes = () => {
   return [
@@ -20,6 +21,10 @@ export const routes = () => {
       {
           path: '/blog/:id',
           element: <BlogCard/>
+      },
+      {
+          path: '/about-us',
+          element: <AboutUs/>
       },
   ];
 }
