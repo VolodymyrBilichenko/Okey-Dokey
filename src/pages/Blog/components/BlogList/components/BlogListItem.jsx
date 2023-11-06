@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import BlogPostImg from '../../../../../assets/img/blog/blog-post-image-1.jpg'
+import {NavLink} from "react-router-dom";
+import {ImageSize} from "../../../../../functions/ImageSize";
 
 export const BlogListItem = () => {
+
+    useEffect(() => {
+        ImageSize()
+    }, [])
+
     return (
         <li className="classblog__card">
-            <a href="single.html" className="blog__card--body">
+            <NavLink to={'/blog/:id'}  className="blog__card--body">
                 <div className="blog__card--image image-aspect-ratio">
                     <picture>
                         <img src={BlogPostImg} alt="" width="370" height="237" loading="lazy"/>
@@ -27,7 +34,7 @@ export const BlogListItem = () => {
                         курсов и другие.
                     </p>
                 </div>
-            </a>
+            </NavLink>
         </li>
     );
 }
