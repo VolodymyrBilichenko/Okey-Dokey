@@ -4,7 +4,7 @@ import ReviewsCardDecor from '../../../../../assets/img/index/reviews/reviews-ca
 import ReviewsAvatar from '../../../../../assets/img/index/reviews/reviews-avatar.jpg'
 export const ReviewsMobSlide = () => {
     return (
-        <li className="reviews__slider-mob--slide splide__slide reviews__item">
+        <li className="reviews__slider-mob--slide reviews__item">
             <div className="reviews__item--background" aria-hidden="true">
                 <div className="reviews__item--background-decor"></div>
                 <div className="reviews__item--background-decor"></div>
