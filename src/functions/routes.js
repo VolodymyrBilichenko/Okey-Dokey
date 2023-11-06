@@ -26,5 +26,9 @@ export const routes = () => {
           path: '/about-us',
           element: <AboutUs/>
       },
+      {
+          path: '/programs',
+          element: <AboutUs/>
+      },
   ];
 }

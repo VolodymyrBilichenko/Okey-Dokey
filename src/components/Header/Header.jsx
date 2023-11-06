@@ -33,9 +33,9 @@ export const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="programs.html">
+                <NavLink to={'/programs'}>
                   Программы
-                </a>
+                </NavLink>
               </li>
               <li>
                 <a href="./#reviews">
