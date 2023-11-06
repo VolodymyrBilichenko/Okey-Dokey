@@ -3,6 +3,7 @@ import {Main} from "../pages/Main/Main";
 import {Blog} from "../pages/Blog/Blog";
 import {BlogCard} from "../pages/BlogCard/BlogCard";
 import {AboutUs} from "../pages/AboutUs/AboutUs";
+import {Programs} from "../pages/Programs/Programs";
 
 export const routes = () => {
   return [
@@ -28,7 +29,7 @@ export const routes = () => {
       },
       {
           path: '/programs',
-          element: <AboutUs/>
+          element: <Programs/>
       },
   ];
 }
