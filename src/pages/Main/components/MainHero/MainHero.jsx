@@ -1,13 +1,17 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 
 import indexHeroDecor1 from '../../../../assets/img/index/hero/index-hero-decor-1.svg'
 import indexHeroDecor2 from '../../../../assets/img/index/hero/index-hero-decor-2.svg'
 import brandPattern from '../../../../assets/img/index/hero/brand-pattern.svg'
 import indexHeroImage from '../../../../assets/img/index/hero/index-hero-image.svg'
+import {EyeElement} from "../../../../functions/EyeElement";
 
 
 
 export const MainHero = () => {
+    useEffect(() => {
+        EyeElement();
+    }, [])
   return (
       <section className="hero container">
           <div className="hero__background visible-on-desktop" aria-hidden="true">
