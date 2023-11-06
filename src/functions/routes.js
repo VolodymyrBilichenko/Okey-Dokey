@@ -1,5 +1,6 @@
 import React from 'react';
 import {Main} from "../pages/Main/Main";
+import {Blog} from "../pages/Blog/Blog";
 
 export const routes = () => {
   return [
@@ -10,6 +11,10 @@ export const routes = () => {
       {
           path: '/',
           element: <Main/>
+      },
+      {
+          path: '/blog',
+          element: <Blog/>
       },
   ];
 }
