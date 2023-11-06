@@ -1,5 +1,6 @@
 import React from 'react';
 import {MainProgrammsListItem} from "./components/MainProgrammsListItem/MainProgrammsListItem";
+import {MainProgramsList} from "./components/MainProgramsList/MainProgramsList";
 
 export const MainProgramms = () => {
     return (
@@ -7,13 +8,9 @@ export const MainProgramms = () => {
             <h2 className="programs__title section-title">
                 Программы
             </h2>
-            <ul className="programs__list">
-                <MainProgrammsListItem/>
 
-                <MainProgrammsListItem/>
+            <MainProgramsList/>
 
-                <MainProgrammsListItem/>
-            </ul>
             <div className="programs__footer">
                 <a href="#" className="programs__load-more circle-btn _accent">
                     Смотреть <br/> еще
