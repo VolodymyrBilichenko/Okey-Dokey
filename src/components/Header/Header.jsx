@@ -1,60 +1,35 @@
-import React from 'react'
 import { HeaderStyle } from './Header.styled'
 
 import Logo from '../../assets/img/logo.svg'
-import {NavLink} from "react-router-dom";
+import {NavLink, useLocation} from "react-router-dom";
+import {useSmoothScroll} from "../../functions/useSmoothScroll";
+import {HeaderNavList} from "./components/HeaderNavList/HeaderNavList";
 
 export const Header = () => {
+
+  const { pathname, hash } = useLocation();
+  useSmoothScroll(hash, pathname);
+
+
 
   return (
     <HeaderStyle className="header container">
       <div className="header__body">
+
         <div className="header__logo">
           <NavLink to={"/"} className="header__logo--link">
             <img src={Logo} alt="Logo" width="90" height="90" loading="lazy" className="header__logo--img"/>
           </NavLink>
         </div>
+
         <nav className="header__nav">
           <div className="header__nav--body">
-            <ul className="header__nav--list">
-              <li>
-                <a href="./#tariffs">
-                  Тарифы
-                </a>
-              </li>
-              <li>
-                <NavLink to={'/about-us'}>
-                  О нас
-                </NavLink>
-              </li>
-              <li>
-                <a href="./#our-teachers">
-                  Галерея преподавателей
-                </a>
-              </li>
-              <li>
-                <NavLink to={'/programs'}>
-                  Программы
-                </NavLink>
-              </li>
-              <li>
-                <a href="./#reviews">
-                  Отзывы
-                </a>
-              </li>
-              <li>
-                <NavLink to={"/Blog"}>
-                  Блог
-                </NavLink>
-              </li>
-              <li>
-                <a href="./#faq">
-                  Вопрос-ответ
-                </a>
-              </li>
-            </ul>
+
+            <HeaderNavList/>
+            
           </div>
         </nav>
+
         <div className="header__lang visible-on-mob">
           <button className="header__lang--target" type="button">
             Рус
