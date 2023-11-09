@@ -1,8 +1,7 @@
 import React from 'react';
-import {MainProgrammsListItem} from "./components/MainProgrammsListItem/MainProgrammsListItem";
 import {MainProgramsList} from "./components/MainProgramsList/MainProgramsList";
 
-export const MainProgramms = () => {
+export const MainPrograms = () => {
     return (
         <section className="programs container">
             <h2 className="programs__title section-title">
@@ -12,7 +11,7 @@ export const MainProgramms = () => {
             <MainProgramsList/>
 
             <div className="programs__footer">
-                <a href="#" className="programs__load-more circle-btn _accent">
+                <a href="replace" className="programs__load-more circle-btn _accent">
                     Смотреть <br/> еще
                 </a>
             </div>

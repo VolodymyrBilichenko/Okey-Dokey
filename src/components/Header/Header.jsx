@@ -26,7 +26,7 @@ export const Header = () => {
           <div className="header__nav--body">
 
             <HeaderNavList/>
-            
+
           </div>
         </nav>
 
@@ -39,14 +39,14 @@ export const Header = () => {
           </button>
           <ul className="header__lang--list">
             <li>
-              <a href="#">
+              <a href="replace">
                 En
               </a>
             </li>
           </ul>
         </div>
         <div className="header__account visible-on-mob">
-          <a href="#" className="header__account--btn" title="Аккаунт">
+          <a href="replace" className="header__account--btn" title="Аккаунт">
             <svg width="22" height="22" viewBox="0 0 22 22">
               <use xlinkHref="#avatar"></use>
             </svg>
@@ -89,14 +89,14 @@ export const Header = () => {
             </button>
             <ul className="header__lang--list">
               <li>
-                <a href="#">
+                <a href="replace">
                   En
                 </a>
               </li>
             </ul>
           </div>
           <div className="header__account">
-            <a href="#" className="header__account--btn" title="Аккаунт">
+            <a href="replace" className="header__account--btn" title="Аккаунт">
               <svg width="22" height="22" viewBox="0 0 22 22">
                 <use xlinkHref="#avatar"></use>
               </svg>
