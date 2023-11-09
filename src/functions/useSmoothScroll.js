@@ -1,5 +1,4 @@
-import React, {useEffect} from 'react';
-import {useLocation} from "react-router-dom";
+import {useEffect} from "react";
 
 export const useSmoothScroll = (hash, pathname) => {
     useEffect(() => {
