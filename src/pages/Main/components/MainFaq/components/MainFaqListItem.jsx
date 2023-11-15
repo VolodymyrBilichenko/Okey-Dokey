@@ -1,22 +1,28 @@
-import React from 'react';
+import React, {useState} from 'react';
 
-export const MainFaqListItem = () => {
-  return (
-      <li className="faq__item">
-          <button className="faq__target" type="button">
-              <div className="faq__number"></div>
-              <h3 className="faq__question">
-                  Почему удобно заниматься с преподавателем онлайн?
-              </h3>
-              <div className="faq__plus"></div>
-          </button>
-          <div className="faq__answer">
-              <div>
-                  <p>
-                      Персональное обучение с преподавателем, с полным пониманием и вовлеченностью в твое эффективное обучение в течение каждого урока продолжительностью в 50 минут.
-                  </p>
-              </div>
-          </div>
-      </li>
-  );
+export const MainFaqListItem = ({faq}) => {
+    const [isActive, setIsActive] = useState(false);
+
+    const handleToggle = () => {
+        setIsActive(!isActive);
+    }
+
+    return (
+        <li className="faq__item">
+            <button className={`faq__target ${isActive ? '_active' : ''}`} type="button" onClick={() => handleToggle()}>
+                <div className="faq__number"></div>
+                <h3 className="faq__question">
+                    {faq.title}
+                </h3>
+                <div className="faq__plus"></div>
+            </button>
+            <div className="faq__answer">
+                <div>
+                    <p>
+                        {faq.text}
+                    </p>
+                </div>
+            </div>
+        </li>
+    );
 }
