@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Okey-Dokey/static/css/main.5fbdc1ee.css",
-    "main.js": "/Okey-Dokey/static/js/main.5ce1c607.js",
+    "main.js": "/Okey-Dokey/static/js/main.6b142bcc.js",
     "static/media/blog-post-image-1.jpg": "/Okey-Dokey/static/media/blog-post-image-1.39635b2353bcd32406e5.jpg",
     "static/media/reviews-video.mp4": "/Okey-Dokey/static/media/reviews-video.bc910a3d06e7ca4e5e37.mp4",
     "static/media/post-image.jpg": "/Okey-Dokey/static/media/post-image.97b8fa73006bf08d696d.jpg",
@@ -57,10 +57,10 @@
     "static/media/reviews-card-decor.svg": "/Okey-Dokey/static/media/reviews-card-decor.31447bc113e0a2c4bcac87d4c1076f68.svg",
     "static/media/about-us-hero-decor.svg": "/Okey-Dokey/static/media/about-us-hero-decor.bc41b94c2529c42e2eda1b0cd0ee3837.svg",
     "main.5fbdc1ee.css.map": "/Okey-Dokey/static/css/main.5fbdc1ee.css.map",
-    "main.5ce1c607.js.map": "/Okey-Dokey/static/js/main.5ce1c607.js.map"
+    "main.6b142bcc.js.map": "/Okey-Dokey/static/js/main.6b142bcc.js.map"
   },
   "entrypoints": [
     "static/css/main.5fbdc1ee.css",
-    "static/js/main.5ce1c607.js"
+    "static/js/main.6b142bcc.js"
   ]
 }
