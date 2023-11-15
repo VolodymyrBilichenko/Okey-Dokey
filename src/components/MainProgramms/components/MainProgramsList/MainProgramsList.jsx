@@ -1,17 +1,18 @@
 import React, {useEffect, useState} from 'react';
 import {MainProgramsListItem} from "../MainProgrammsListItem/MainProgramsListItem";
-import axios from "axios";
+import {getAllPrograms} from "../../../../api/apiRequests";
 
 export const MainProgramsList = () => {
 
     const [programs, setPrograms] = useState([])
 
-    useEffect(() =>{
-        axios
-            .get('http://45.150.67.25:1248/api/course/')
-            .then(({data}) => {
-                setPrograms(data);
-            })
+    const fetchData = async () => {
+        const programsData = await getAllPrograms();
+        setPrograms(programsData);
+    }
+
+    useEffect(() => {
+        fetchData();
     }, [])
 
     return (
