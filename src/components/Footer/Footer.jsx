@@ -1,20 +1,21 @@
 import React from 'react';
 
+import {FooterContacts} from "./components/FooterContacts/FooterContacts";
+import {FooterSocial} from "./components/FooterSocial/FooterSocial";
+import {NavLink} from "react-router-dom";
+
 import Logo from '../../assets/img/logo.svg'
-import Facebook from '../../assets/img/social/facebook.svg'
-import Instagram from '../../assets/img/social/instagram.svg'
 import Mastercard from '../../assets/img/footer/mastercard.png'
 import Visa from '../../assets/img/footer/visa.png'
-import {FooterContacts} from "./components/FooterContacts/FooterContacts";
 
 export const Footer = () => {
     return (
         <footer className="footer container _large">
             <div className="footer__body">
                 <div className="footer__container">
-                    <a href="index.html" className="footer__logo">
+                    <NavLink to={'/'} className="footer__logo">
                         <img src={Logo} width="90" height="90" loading="lazy" alt="Logo" className="footer__logo--img"/>
-                    </a>
+                    </NavLink>
                     <nav className="footer__nav">
                         <ul>
                             <li>
@@ -74,18 +75,8 @@ export const Footer = () => {
                         </div>
                         <div className="footer__add--block">
                             <h3>Мы в социальных сетях:</h3>
-                            <ul>
-                                <li>
-                                    <a href="#" title="Instagram">
-                                        <img src={Instagram} alt="" width="18" height="18" loading="lazy"/>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" title="Facebook">
-                                        <img src={Facebook} alt="" width="18" height="18" loading="lazy"/>
-                                    </a>
-                                </li>
-                            </ul>
+
+                            <FooterSocial/>
                         </div>
                     </div>
                 </div>
