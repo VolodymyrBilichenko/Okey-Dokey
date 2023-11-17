@@ -1,10 +1,9 @@
 import React, {useEffect} from 'react';
 
-import BlogPostImg from '../../../../../assets/img/blog/blog-post-image-1.jpg'
 import {NavLink} from "react-router-dom";
 import {ImageSize} from "../../../../../functions/ImageSize";
 
-export const BlogListItem = () => {
+export const BlogListItem = ({blog}) => {
 
     useEffect(() => {
         ImageSize()
@@ -15,7 +14,7 @@ export const BlogListItem = () => {
             <NavLink to={'/blog/:id'}  className="blog__card--body">
                 <div className="blog__card--image image-aspect-ratio">
                     <picture>
-                        <img src={BlogPostImg} alt="" width="370" height="237" loading="lazy"/>
+                        <img src={blog.preview} alt="" width="370" height="237" loading="lazy"/>
                     </picture>
                 </div>
                 <time className="blog__card--date" dateTime="26-09-2023">
@@ -25,13 +24,11 @@ export const BlogListItem = () => {
                     <span>26.09.2023</span>
                 </time>
                 <h2 className="blog__card--title">
-                    Как начать изучать английский после перерыва:5 советов, которые помогут
+                    {blog.title}
                 </h2>
                 <div className="blog__card--text">
                     <p>
-                        В изучении английского нередко случаются перерывы, иногда они бывают слишком продолжительными.
-                        Причины разные: не удавалось справиться с грамматикой, не подошел учитель, неудобная локация
-                        курсов и другие.
+                        {blog.text}
                     </p>
                 </div>
             </NavLink>

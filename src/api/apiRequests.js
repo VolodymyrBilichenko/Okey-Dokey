@@ -30,3 +30,13 @@ export async function getAllContacts() {
         throw error;
     }
 }
+
+export async function getAllBlogs() {
+    try{
+        const response = await axios.get(getApi('/api/blog/'));
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching all blogs:', error);
+        throw error;
+    }
+}
