@@ -20,3 +20,13 @@ export async function getAllFaq() {
         throw error;
     }
 }
+
+export async function getAllContacts() {
+    try{
+        const response = await axios.get(getApi('/api/base/contacts/'));
+        return response.data;
+    } catch (error) {
+        console.error('Error fetching all contacts:', error);
+        throw error;
+    }
+}
