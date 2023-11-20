@@ -1,6 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
+import {BlogFilterSelect} from "./components/BlogFilterSelect";
 
-export const BlogFilter = () => {
+export const BlogFilter = ({blogs, setBlogs}) => {
+    const [selectedSort, setSelectedSort] = useState('')
+
+    const sortPosts = (sort) => {
+        setSelectedSort(sort);
+        setBlogs([...blogs].sort((a, b) => {
+            if (sort === 'short_description') {
+                const dateA = new Date(a[sort]);
+                const dateB = new Date(b[sort]);
+
+                return dateA - dateB;
+            } else {
+                return a[sort].localeCompare(b[sort]);
+            }
+        }))
+    }
+
     return (
         <form className="blog__filter">
             <div className="blog__search">
@@ -13,16 +30,20 @@ export const BlogFilter = () => {
                     </svg>
                 </button>
             </div>
+
             <div className="blog__sort">
                 <span className="blog__sort--name">Сортировать</span>
                 <div className="blog__sort--select">
-                    <select name="sort" className="custom-select">
-                        <option value="rating" data-html="<span>За рейтингом</span>">За рейтингом</option>
-                        <option value="date" data-html="<span>За Датой</span>">За Датой</option>
-                        <option value="popularity" data-html="<span>За Популярностью</span>">За Популярностью</option>
-                        <option value="alphabet" data-html="<span>В алфавитном порядке</span>">В алфавитном порядке
-                        </option>
-                    </select>
+
+                    <BlogFilterSelect
+                        value={selectedSort}
+                        onChange={sortPosts}
+                        defaultValue='За'
+                        options={[
+                            {value: 'short_description', name: 'За Датой'},
+                            {value: 'title', name: 'В алфавитном порядке'},
+                        ]}
+                    />
                 </div>
             </div>
         </form>
